@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Three Colored Blocks</title>
+  <style>
+    /* Container */
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    /* Blocks */
+    .red, .green, .yellow {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="yellow"></div>
+  </div>
 </body>
-
 </html>
